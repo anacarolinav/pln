@@ -17,13 +17,14 @@ mark_explications = re.sub(r"\n([^#\s].+)", r"\n#E=\1", mark_terms)
 correct_explications = re.sub(r"(#T=.+)\n\n#T=(.+)", r"\1\n#E=\2", mark_explications)
 remove_new_lines = re.sub(r"(#E=.+)(?:\n#E=(.+))+", r"\1 \2", correct_explications)
 remove_marks = re.sub(r"#[TE]=", r"", remove_new_lines)
+
 new_entries = re.findall(r"\n\n(.+)\n(.+)", remove_marks)
 
 
 file.close()
 
 
-html=open("dicionario_medico.html",'w')
+html=open("dicionario_medico.html",'w', encoding='utf-8')
 
 header = '''
 <html>
@@ -54,6 +55,8 @@ table += "</table>"
 
 
 footer = '''
+<p style="text-align:left;">This file  was designed by Ana Carolina Veloso. <br></p> 
+
 </body>
 </html>
 '''
