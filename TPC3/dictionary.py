@@ -7,7 +7,7 @@
 
 import re
 
-file=open('/Users/anacarolinaalves/Desktop/MESTRADO/2/PLN/aula0903/dicionario_medico.txt')
+file=open('/Users/anacarolinaalves/Desktop/MESTRADO/2/PLN/aula0903/dicionario_medico.txt', encoding= "utf-8")
 text = file.read()
 
 
@@ -31,9 +31,9 @@ header = '''
 <meta charset='utf-8'/>
 <title> Dicionário Médico </title>
 </head>
-<body>
-<h1> Welcome to my medical dictionary! </h1>           
-<p>This file is organized by designation and the description on the side.</p> 
+<body style="background-color:beige;">
+<h1 style="text-align:center;"> <br> Welcome to my medical dictionary! </h1>           
+<p style="text-align:center;">This file is organized by designation and the description on the side. <br></p> 
 
 '''
 
@@ -45,8 +45,8 @@ table = "<table border='1'>\n"
 for i, row in enumerate(lista):
     table += "<tr>"
     for j, item in enumerate(row):
-        if i == 0: # if first row, add bold style
-            table += "<th style='font-weight:bold'>{}</th>".format(item)
+        if i == 0: 
+            table += "<th style='font-weight:bold';>{}</th>".format(item)
         else:
             table += "<td>{}</td>".format(item)
     table += "</tr>\n"
