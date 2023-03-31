@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Endangered Animals: Elephants</title>
+    <style>
+        /* CSS styles for the page */
+        /* Style for the header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        header nav {
+            display: flex;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav {
+            background-color: #333;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .left-section {
+            display: flex;
+            align-items: center;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .logo {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 20px;
+            margin-left: 10px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        p {
+            text-align: justify;
+            margin: 20px;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        /* Style for the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            text-align: center;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        .animal {
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .animal img {
+            float: left;
+            margin-right: 20px;
+            max-width: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        .animal h2 {
+            margin-top: 0;
+        }
+
+        .animal p {
+            margin-bottom: 0;
+        }
+
+        .imagem {
+            max-width: 50%;
+            display: block;
+            margin: auto;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="header">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/animals">Animals</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+
+            <div class="left-section">
+                <h1 style="font-size: 12px; padding-right: 10px; color: white;">WCA</h1>
+                <img src="{{url_for('static', filename='logo.png')}}" class="logo" />
+
+            </div>
+
+
+        </nav>
+
+    </header>
+
+
+    <h1 style="padding-top: 80px; text-align: center; font-size: 36px; margin-top: 50px;">Endangered Animals: Elephants</h1>
+    <img src="{{url_for('static', filename='elephant.png')}}" class="imagem"/>
+    <div class="animal">
+        <h2>Elephants</h2>
+        <p>Elephants are one of the most iconic and beloved animals on the planet, but they are also one of the most
+            threatened. There are two species of elephants: African and Asian. Both species are facing serious threats from
+            habitat loss, poaching, and human-wildlife conflict.
+        
+            African elephants are listed as vulnerable on the IUCN Red List of Threatened Species, with a declining
+            population due to poaching for ivory and habitat loss. Asian elephants are also listed as endangered, with a
+            declining population due to habitat loss and fragmentation, and human-elephant conflict.
+        
+            Conservation efforts for elephants include protecting their habitats, reducing human-elephant conflict, and
+            fighting the illegal trade in ivory. By supporting organizations that work to protect elephants and their
+            habitats, we can help ensure a future for these magnificent creatures.</p>
+    </div>
+    
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h1 style="padding-top: 80px; text-align: center; font-size: 36px; margin-top: 50px;">Endangered Animals: Horses</h1>
+    <img src="{{url_for('static', filename='horses.png')}}" class="imagem"/>
+    <div class="animal">
+        <h2>Wild horse</h2>
+        <p>The wild horse is a species of the horse family, Equidae, that is native to the steppe and forest-steppe
+            areas of central Asia, Mongolia, and northern China. It is considered endangered due to habitat loss,
+            hunting, and competition for resources with domestic livestock.</p>
+    </div>
+    <div class="animal">
+        <h2>Przewalski's horse</h2>
+        <p>Przewalski's horse, also called the Mongolian wild horse or Dzungarian horse, is a rare and endangered horse
+            native to the steppes of central Asia. It was declared extinct in the wild in the 1960s, but has since been
+            reintroduced in Mongolia and China.</p>
+    </div>
+    <div class="animal">
+        <h2>Konik horse</h2>
+        <p>The Konik is a small horse breed that originated in Poland and is used for conservation grazing. It is
+            considered endangered due to loss of habitat and crossbreeding with domestic horses.</p>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h1 style="padding-top: 80px; text-align: center; font-size: 36px; margin-top: 50px;">The 8 most Endangered Animals: </h1>
+    <br/>
+    <ul>
+        <li>
+            <h2>Javan Rhinoceros</h2>
+            <p>This rhinoceros is one of the rarest large mammals in the world, with only around 72 individuals left in
+                the wild. They have a single horn on their nose, and their skin is dark gray and heavily wrinkled.</p>
+        </li>
+        <li>
+            <h2>Vaquita (like a dolphin)</h2>
+            <p>The vaquita is the world's smallest cetacean (the group that includes whales, dolphins, and porpoises)
+                and is found only in the northern Gulf of California. They have dark patches around their eyes and lips
+                and a gray back with a lighter underside.</p>
+        </li>
+        <li>
+            <h2>Sumatran elephant</h2>
+            <p>The Sumatran elephant is the smallest of the Asian elephants and is found only on the island of Sumatra.
+                They have smaller ears than their African cousins and have a more arched back. They also have a longer
+                tail and two finger-like projections at the tip of their trunk.</p>
+        </li>
+        <li>
+            <h2>Gorilla</h2>
+            <p>This gorilla is the most widespread and numerous of the gorilla subspecies, but their population has
+                declined by more than 60% over the past 20-25 years. They have dark fur and a characteristic sagittal
+                crest on their head, which is more pronounced in adult males.</p>
+        </li>
+        <li>
+            <h2>Amur leopard</h2>
+            <p>The Amur leopard is one of the rarest big cats in the world, with fewer than 100 individuals left in the
+                wild. They have a thick, spotted coat of fur that provides excellent camouflage in their forest habitat.
+            </p>
+        </li>
+        <li>
+            <h2>Leatherback sea turtle</h2>
+            <p>The leatherback is the largest of all sea turtles and can weigh up to 2,000 pounds. They have a unique,
+                flexible shell that is covered in a leathery skin instead of hard plates like other turtles.</p>
+        </li>
+        <li>
+            <h2>South China tiger</h2>
+            <p>This tiger is one of the 10 recognized subspecies of tiger and is considered one of the most endangered
+                big cats in the world. They have a distinctive pattern of dark stripes on their orange coat.</p>
+        </li>
+        <li>
+            <h2>Saola</h2>
+            <p>The saola is a critically endangered antelope-like species found only in the Annamite Mountains of
+                Vietnam and Laos. They have two parallel horns on their head that can reach up to 20 inches in length.
+            </p>
+        </li>
+    </ul>
+
+
+
+
+
+
+
+
+</body>
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+<footer>
+    <div class="footer1">
+        <a href="#" style="color: white;">Contacts</a>
+        <a href="#" style="color: white;">About Us</a>
+        <a href="#" style="color: white;">Privacy Policy</a>
+    </div>
+    <div class="footer2">
+        <p>&copy; 2023 Wildlife Conservation Alliance. All rights reserved.</p>
+    </div>
+</footer>
+
+</html>

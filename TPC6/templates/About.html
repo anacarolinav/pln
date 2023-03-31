@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .left-section {
+      display: flex;
+      align-items: center;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 20px;
+      margin-left: 10px;
+    }
+
+    nav {
+      background-color: #333;
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100%;
+    }
+
+    nav li {
+      margin: 0 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+
+
+
+    .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 100px;
+
+    }
+
+    p {
+      text-align: justify;
+      margin: 20px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer p {
+      margin: 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="header">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/animals">Animals</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+
+    <div class="left-section">
+      <h1 style="font-size: 12px; padding-right: 10px;color: white; font-weight: bold;">WCA</h1>
+      <img src="{{url_for('static', filename='logo.png')}}" class="logo" />
+
+    </div>
+
+
+  </nav>
+
+  <div class="about">
+    <h1>About</h1>
+    <p>Welcome to the Wildlife Conservation Alliance!
+
+      Our organization is dedicated to the protection and conservation of endangered wildlife species around the world.
+      We believe that every species has a critical role to play in the ecosystem, and that it is our responsibility to
+      protect and preserve them for future generations.
+
+      We are proud to be supported by a team of dedicated conservationists, scientists, and community organizers who
+      bring a wealth of expertise and experience to our work. We are also grateful for the support of our partners and
+      donors, who make our conservation efforts possible.
+
+      If you share our passion for wildlife conservation, we invite you to get involved with our organization. Whether
+      through membership, volunteering, or donations, your support can make a real difference in protecting endangered
+      species and preserving the natural world.</p>
+
+  </div>
+  <main>
+    <br />
+    <br />
+    <section>
+      <h2>Our Mission</h2>
+      <p>Our mission is to work with local communities, governments, and other conservation organizations to develop
+        sustainable conservation solutions that benefit both wildlife and people. We do this through a combination of
+        research, advocacy, and hands-on conservation efforts in the field.</p>
+    </section>
+    <br />
+    <br />
+    <section>
+      <h2>Our Team</h2>
+      <ul>
+        <li>Carolina Veloso - CEO</li>
+        <li>Cristina Pimenta - CFO</li>
+        <li>Maria Costa - COO</li>
+      </ul>
+    </section>
+    <br />
+    <br />
+    <section>
+      <h2>Our History</h2>
+      <p>Since our founding in 1995, we have worked tirelessly to protect a wide range of species, including elephants,
+        rhinos, tigers, and gorillas. Our projects have included anti-poaching initiatives, habitat protection and
+        restoration, and community outreach programs designed to educate and empower local communities to become
+        advocates
+        for wildlife conservation.</p>
+    </section>
+    <br />
+    <br />
+    <br />
+  </main>
+
+  <footer>
+    <div class="footer1">
+      <a href="#" style="color: white;">Contacts</a>
+      <a href="#" style="color: white;">About Us</a>
+      <a href="#" style="color: white;">Privacy Policy</a>
+    </div>
+    <div class="footer2">
+      <p>&copy; 2023 Wildlife Conservation Alliance. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
