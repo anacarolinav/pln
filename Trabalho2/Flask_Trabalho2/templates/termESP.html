@@ -1,0 +1,21 @@
+{% extends 'layoutVERSAOesp.html' %}
+
+{% block body %}
+
+<div style="font-size: 18px; line-height: 1.5em; padding: 20px;">
+    
+    <p><strong>Término en Portugués:</strong> {{description}}</p>
+
+    <p><strong>Descripción:</strong> {{value["descricao"]}}</p>
+
+    <p><strong>Término en Inglés:</strong> {{value["ingles"]}}</p>
+
+    <p><strong>Término en Español:</strong> {{value["espanhol"]}}</p>
+
+    <p><strong>Término en Alemán:</strong> {{value["alemao"]}}</p>
+
+    <p><strong>Término en Italiano:</strong> {{value["italiano"]}}</p>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends 'layoutVERSAOing.html' %}
+
+{% block styles %}
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #555;
+    margin: 0;
+  }
+
+  p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #777;
+    line-height: 1.5;
+    margin-top: 30px;
+  }
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <h1>{{title}}</h1>
+
+  <h4>This is a dictionary of medical terms that includes 3 languages: Portuguese, English, and Spanish.</h4>
+  <h4>Some terms also include the associated description.</h4>
+
+  <p>With the continuous evolution and complexity of healthcare terms, students, nurses, nursing technicians, and other healthcare professionals need a quick, accessible, compact, and comprehensive reference work. To clarify and simplify the language of health sciences, we have developed the Medical and Nursing Term Dictionary. In addition to explaining thousands of terms, this dictionary includes an introduction to nutrition, healthy habits, and other important topics for professionals who value quality of life and strive for excellence in their work.</p>
+</div>
+
+{% endblock %}

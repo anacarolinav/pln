@@ -1,0 +1,50 @@
+{% extends 'layoutVERSAOpt.html' %}
+
+{% block styles %}
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #555;
+    margin: 0;
+  }
+
+  p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #777;
+    line-height: 1.5;
+    margin-top: 30px;
+  }
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <h1>{{title}}</h1>
+
+  <h4>Este é um dicionário de termos médicos que inclui 3 línguas: português, inglês e espanhol.</h4> 
+  <h4>Alguns termos contêm ainda a descrição associada.</h4>
+
+  <p>Com a contínua evolução e a complexidade dos termos da área da saúde, estudantes, enfermeiros, técnicos de enfermagem e outros profissionais da área precisam de uma obra de referência rápida, disponível, compacta e completa. Com o objetivo de esclarecer e simplificar a linguagem das ciências da saúde, elaboramos o Dicionário de Termos Médicos e de Enfermagem. Além da explicação de milhares de termos, este dicionário inclui uma introdução sobre alimentação, hábitos saudáveis e outros tópicos importantes para profissionais que valorizam a qualidade de vida e investem na excelência do seu trabalho.</p>
+
+</div>
+{% endblock %}

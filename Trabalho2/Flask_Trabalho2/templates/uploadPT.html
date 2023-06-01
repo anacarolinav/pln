@@ -1,0 +1,73 @@
+{% extends 'layoutVERSAOpt.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+    height: 100vh;
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <h1 class="text-center mb-4">Adicionar Relatórios Médicos</h1>
+  <form method="POST" action="/uploadPT" enctype="multipart/form-data">
+    <div class="form-group">
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <label for="file" class="btn btn-primary">Escolher arquivo</label>
+          <input type="file" id="file" name="file" accept=".pdf" style="display: none;">
+        </div>
+        <div class="col-auto">
+          &nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-success">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </form>  
+</div>
+<hr> <!-- Adição da linha horizontal -->
+{% endblock %}

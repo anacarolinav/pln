@@ -1,0 +1,21 @@
+{% extends 'layoutVERSAOing.html' %}
+
+{% block body %}
+
+<div style="font-size: 18px; line-height: 1.5em; padding: 20px;">
+    
+    <p><strong>Term in Portuguese:</strong> {{description}}</p>
+
+    <p><strong>Description:</strong> {{value["descricao"]}}</p>
+
+    <p><strong>Term in English:</strong> {{value["ingles"]}}</p>
+
+    <p><strong>Term in Spanish:</strong> {{value["espanhol"]}}</p>
+
+    <p><strong>Term in German:</strong> {{value["alemao"]}}</p>
+
+    <p><strong>Term in Italian:</strong> {{value["italiano"]}}</p>
+
+</div>
+
+{% endblock %}

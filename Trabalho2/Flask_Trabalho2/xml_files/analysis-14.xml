@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="23.05.0">
+<page number="1" position="absolute" top="0" left="0" height="1263" width="892">
+	<fontspec id="0" size="20" family="DAAAAA+Arial" color="#000000"/>
+	<fontspec id="1" size="15" family="EAAAAA+MS-Mincho" color="#000000"/>
+	<fontspec id="2" size="17" family="FAAAAA+ComicSansMS" color="#000000"/>
+	<fontspec id="3" size="17" family="BAAAAA+ArialMT" color="#000000"/>
+	<fontspec id="4" size="17" family="EAAAAA+MS-Mincho" color="#000000"/>
+	<fontspec id="5" size="12" family="BAAAAA+ArialMT" color="#000000"/>
+	<fontspec id="6" size="24" family="BAAAAA+ArialMT" color="#000000"/>
+	<fontspec id="7" size="17" family="GAAAAA+Calibri" color="#000000"/>
+	<fontspec id="8" size="17" family="DAAAAA+Arial" color="#000000"/>
+<text top="96" left="343" width="217" height="22" font="0"><b>MAMOGRAFIA DIGITAL</b></text>
+<text top="158" left="131" width="16" height="15" font="1">* </text>
+<text top="154" left="147" width="131" height="22" font="2"><b>Indicação clínica</b></text>
+<text top="158" left="279" width="8" height="15" font="1">:</text>
+<text top="176" left="131" width="191" height="18" font="3">- Exame de rastreamento.</text>
+<text top="233" left="131" width="16" height="15" font="1">* </text>
+<text top="229" left="147" width="106" height="22" font="2"><b>Laudo médico</b></text>
+<text top="233" left="253" width="8" height="15" font="1">:</text>
+<text top="251" left="131" width="393" height="18" font="3">- Pele e complexos aréolo-mamilares sem alterações.</text>
+<text top="270" left="131" width="278" height="18" font="3">- Mamas predominantemente densas.</text>
+<text top="289" left="131" width="573" height="18" font="3">- Não há evidência de nódulos, microcalcificações suspeitas, assimetria focal, </text>
+<text top="308" left="131" width="310" height="18" font="3">  distorção arquitetural ou dilatação ductal.</text>
+<text top="327" left="131" width="313" height="18" font="3">- Prolongamentos axilares sem alterações.</text>
+<text top="389" left="131" width="16" height="15" font="1">* </text>
+<text top="385" left="147" width="65" height="22" font="2"><b>Achados</b></text>
+<text top="389" left="213" width="8" height="15" font="1">:</text>
+<text top="407" left="131" width="376" height="18" font="3">- Ausência de sinais mamográficos de malignidade.</text>
+<text top="469" left="131" width="16" height="15" font="1">* </text>
+<text top="464" left="147" width="184" height="22" font="2"><b>Classificação BI-RADS</b></text>
+<text top="468" left="332" width="8" height="16" font="4"> </text>
+<text top="471" left="341" width="223" height="13" font="5">(Breast Imaging Report and Date System)</text>
+<text top="487" left="131" width="327" height="18" font="3">- Categoria 1 – Sem achados mamográficos.</text>
+<text top="549" left="131" width="16" height="15" font="1">* </text>
+<text top="544" left="147" width="207" height="22" font="2"><b>Recomendação de conduta</b></text>
+<text top="549" left="354" width="8" height="15" font="1">:</text>
+<text top="567" left="128" width="610" height="18" font="3">- Mamografia anual (ou bianual) a partir dos 40 anos e, para mulheres do grupo de </text>
+<text top="586" left="139" width="267" height="18" font="3">risco,  a partir dos 35 anos de idade.</text>
+<text top="640" left="128" width="630" height="18" font="3">Nota: A ultrassonografia realizada em 14/04/2016 evidenciou pequeno cisto na mama </text>
+<text top="659" left="170" width="352" height="18" font="3">direita, o qual não teve expressão mamográfica.</text>
+<text top="686" left="128" width="46" height="18" font="3">          </text>
+<text top="895" left="327" width="249" height="27" font="6">MUNICÍPIO DE COARI</text>
+<text top="977" left="128" width="296" height="20" font="7"><b>PACIENTE: FRANCISCA GOMES DE ALMEIDA</b></text>
+<text top="1009" left="128" width="86" height="20" font="7"><b>IDADE: 78 A.</b></text>
+<text top="1009" left="614" width="137" height="20" font="7"><b>DT.IMP.:19/04/2016</b></text>
+<text top="1078" left="341" width="226" height="18" font="8"><b>Dr. MARCIO SANTOS DAVID </b></text>
+<text top="1097" left="394" width="120" height="18" font="8"><b>CRM-AM : 4262</b></text>
+<text top="1116" left="356" width="196" height="18" font="8"><b>MÉDICO RADIOLOGISTA</b></text>
+</page>
+</pdf2xml>

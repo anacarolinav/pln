@@ -1,0 +1,41 @@
+{% extends 'layoutVERSAOing.html' %}
+
+{% block body %}
+<head>
+    <style>
+        .xml-content {
+            white-space: pre-wrap;
+            font-family: monospace;
+            margin: 20px;
+        }
+        .highlight {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const termsPresent = {{ terms_present | safe }};
+            const xmlContent = document.querySelector('.xml-content');
+            const xmlTerms = xmlContent.querySelectorAll('term');
+
+            xmlTerms.forEach(termElement => {
+                const term = termElement.textContent.trim();
+                if (termsPresent.includes(term)) {
+                    termElement.classList.add('highlight');
+                    termElement.addEventListener('click', () => {
+                        window.location.href = '/term/' + term;
+                    });
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Report "{{ filename }}"</h1>
+        <div class="xml-content">
+            {{ xml_content | safe }}
+        </div>
+    </div>
+</body>
+{% endblock %}

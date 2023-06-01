@@ -1,0 +1,48 @@
+{% extends 'layoutVERSAOesp.html' %}
+
+{% block body %}
+<h2 style="margin-left: 50px;">Términos médicos</h2>
+<p style="margin-left: 50px;">Añadir término:</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form action="/terminos" method="POST">
+                <div class="mb-3">
+                    <label class="form-label">Términos:</label>
+                    <input type="text" class="form-control" name="term">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Descripción:</label>
+                    <input type="text" class="form-control" name="description">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Traducción inglesa:</label>
+                    <input type="text" class="form-control" name="english">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Traducción español:</label>
+                    <input type="text" class="form-control" name="spanish">
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% if info %}
+{{ info }}
+{% endif %}
+
+<div class="list-group mx-3 mb-3">
+    <div class="mb-3">
+    {% for description in descriptions %}
+    <li class="list-group-item d-flex justify-content-between align-align-items-center">
+        <a href="/terminos/{{description}}" class="list-group-item list-group-item-action">{{description}}</a>
+        <button onclick="deleteTermino('{{description}}')"> Eliminar </button>
+    {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="23.05.0">
+<page number="1" position="absolute" top="0" left="0" height="1263" width="892">
+	<fontspec id="0" size="20" family="DAAAAA+Arial" color="#000000"/>
+	<fontspec id="1" size="15" family="EAAAAA+MS-Mincho" color="#000000"/>
+	<fontspec id="2" size="17" family="FAAAAA+ComicSansMS" color="#000000"/>
+	<fontspec id="3" size="17" family="BAAAAA+ArialMT" color="#000000"/>
+	<fontspec id="4" size="17" family="EAAAAA+MS-Mincho" color="#000000"/>
+	<fontspec id="5" size="12" family="BAAAAA+ArialMT" color="#000000"/>
+	<fontspec id="6" size="24" family="BAAAAA+ArialMT" color="#000000"/>
+	<fontspec id="7" size="17" family="GAAAAA+Calibri" color="#000000"/>
+	<fontspec id="8" size="17" family="DAAAAA+Arial" color="#000000"/>
+<text top="161" left="343" width="217" height="22" font="0"><b>MAMOGRAFIA DIGITAL</b></text>
+<text top="222" left="131" width="16" height="15" font="1">* </text>
+<text top="218" left="147" width="131" height="22" font="2"><b>Indicação clínica</b></text>
+<text top="222" left="279" width="8" height="15" font="1">:</text>
+<text top="241" left="131" width="191" height="18" font="3">- Exame de rastreamento.</text>
+<text top="294" left="131" width="16" height="15" font="1">* </text>
+<text top="290" left="147" width="106" height="22" font="2"><b>Laudo médico</b></text>
+<text top="294" left="253" width="8" height="15" font="1">:</text>
+<text top="313" left="131" width="393" height="18" font="3">- Pele e complexos aréolo-mamilares sem alterações.</text>
+<text top="332" left="131" width="291" height="18" font="3">- Mamas predominantemente adiposas.</text>
+<text top="351" left="131" width="640" height="18" font="3">- Não há evidência de nódulos, microcalcificações suspeitas, assimetria focal, distorção</text>
+<text top="370" left="131" width="238" height="18" font="3">  arquitetural ou dilatação ductal.</text>
+<text top="389" left="131" width="266" height="18" font="3">- Calcificações vasculares bilaterais.</text>
+<text top="407" left="131" width="313" height="18" font="3">- Prolongamentos axilares sem alterações.</text>
+<text top="469" left="131" width="16" height="15" font="1">* </text>
+<text top="465" left="147" width="65" height="22" font="2"><b>Achados</b></text>
+<text top="469" left="213" width="8" height="15" font="1">:</text>
+<text top="487" left="131" width="266" height="18" font="3">- Calcificações vasculares bilaterais.</text>
+<text top="549" left="131" width="16" height="15" font="1">* </text>
+<text top="545" left="147" width="184" height="22" font="2"><b>Classificação BI-RADS</b></text>
+<text top="548" left="332" width="8" height="16" font="4"> </text>
+<text top="551" left="341" width="223" height="13" font="5">(Breast Imaging Report and Date System)</text>
+<text top="567" left="131" width="357" height="18" font="3">- Categoria 2 - Achados mamográficos benignos.</text>
+<text top="629" left="131" width="16" height="15" font="1">* </text>
+<text top="625" left="147" width="207" height="22" font="2"><b>Recomendação de conduta</b></text>
+<text top="629" left="354" width="8" height="15" font="1">:</text>
+<text top="647" left="128" width="610" height="18" font="3">- Mamografia anual (ou bianual) a partir dos 40 anos e, para mulheres do grupo de </text>
+<text top="666" left="139" width="262" height="18" font="3">risco, a partir dos 35 anos de idade.</text>
+<text top="905" left="327" width="249" height="27" font="6">MUNICÍPIO DE COARI</text>
+<text top="987" left="128" width="259" height="20" font="7"><b>PACIENTE: ALZIRENE DA SILVA GOMES</b></text>
+<text top="1019" left="128" width="86" height="20" font="7"><b>IDADE: 48 A.</b></text>
+<text top="1019" left="614" width="141" height="20" font="7"><b>DT.IMP.: 20/04/2016</b></text>
+<text top="1078" left="341" width="226" height="18" font="8"><b>Dr. MARCIO SANTOS DAVID </b></text>
+<text top="1097" left="394" width="120" height="18" font="8"><b>CRM-AM : 4262</b></text>
+<text top="1116" left="356" width="196" height="18" font="8"><b>MÉDICO RADIOLOGISTA</b></text>
+</page>
+</pdf2xml>

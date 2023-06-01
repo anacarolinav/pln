@@ -1,0 +1,24 @@
+{% extends 'layoutVERSAOesp.html' %}
+
+{% block body %}
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>Término en portugués</th>
+            <th>Descripción</th>
+            <th>Término en inglés</th>
+            <th>Término en español</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for description, descriptions in matched %}
+        <tr>
+            <td>{{ description }}</td>
+            <td>{{ descriptions["descricao"] }}</td>
+            <td>{{ descriptions["ingles"] }}</td>
+            <td>{{ descriptions["espanhol"] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

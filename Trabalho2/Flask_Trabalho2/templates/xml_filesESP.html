@@ -1,0 +1,16 @@
+{% extends 'layoutVERSAOesp.html' %}
+
+{% block body %}
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Análisis de informes médicos</h1>
+        <ul class="list-group">
+            {% for xml_file in xml_files %}
+                <li class="list-group-item">
+                    <a href="{{ url_for('open_xmlESP', filename=xml_file) }}">{{ xml_file }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+{% endblock %}

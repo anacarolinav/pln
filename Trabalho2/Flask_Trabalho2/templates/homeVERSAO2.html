@@ -1,0 +1,30 @@
+{% extends 'layoutVERSAO1.html' %}
+
+{% block body %}
+
+<div style="text-align: center;">
+  <h1 style="margin-top: 60px;">{{title}}</h1>
+
+  <h4 style="margin-top: 20px;">This is a dictionary of medical terms that includes 3 languages: portuguese, english and
+    spanish.</h4>
+  <h4>Some terms also contain the associated description.</h4>
+
+
+  <div style="margin-top: 100px;">
+
+    <a href="/homePT">
+      <img src="{{ url_for('static', filename='images/bandeira-de-portugal.png') }}" alt="Bandeira de Portugal" style="width: 170px; height: 120px; margin-right: 10px;">
+    </a>
+
+    <a href="/homeING">
+      <img src="{{ url_for('static', filename='images/bandeira-Ingl.jpg') }}" alt="Bandeira de Portugal" style="width: 170px; height: 120px; margin-right: 10px;">
+    </a>
+
+    <a href="/homeESP">
+      <img src="{{ url_for('static', filename='images/bandeira-espanha.jpg') }}" alt="Bandeira de Portugal" style="width: 170px; height: 120px; margin-right: 10px;">
+    </a>
+  </div>
+
+</div>
+
+{% endblock %}
